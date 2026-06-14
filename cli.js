@@ -149,7 +149,7 @@ function formatMarkdown(data) {
   return lines.join('\n');
 }
 
-async function run() {
+function run() {
   const args = parseArgs(process.argv);
   if (args.help) { console.log(HELP); process.exit(0); }
   if (!ghAvailable()) { console.error('Error: gh CLI not found. Install from https://cli.github.com'); process.exit(2); }
@@ -185,4 +185,9 @@ async function run() {
   process.exit(hasStale ? 1 : 0);
 }
 
-run().catch(e => { console.error('Error:', e.message); process.exit(2); });
+try {
+  run();
+} catch (e) {
+  console.error('Error:', e.message);
+  process.exit(2);
+}
