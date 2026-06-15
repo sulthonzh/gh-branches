@@ -1,0 +1,40 @@
+# dependencies
+node_modules/
+
+# build
+dist/
+build/
+*.tsbuildinfo
+
+# test
+coverage/
+.nyc_output/
+
+# env
+.env
+.env.local
+.env*.local
+!.env.example
+
+# logs
+*.log
+npm-debug.log*
+
+# os
+.DS_Store
+Thumbs.db
+
+# ide
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+.venv/
+*.egg-info/
+.mypy_cache/
+
+# package
+*.tgz
