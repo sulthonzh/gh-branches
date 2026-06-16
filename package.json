@@ -1,5 +1,5 @@
 {
-  "name": "gh-branches",
+  "name": "@quadbyte/gh-branches",
   "version": "1.0.0",
   "description": "List branches on GitHub repositories",
   "main": "index.js",
