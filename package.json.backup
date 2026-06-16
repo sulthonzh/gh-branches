@@ -1,0 +1,9 @@
+{
+  "name": "gh-branches",
+  "version": "1.0.0",
+  "description": "See all branches across your GitHub repos. Find stale branches, clean up your repos.",
+  "bin": { "gh-branches": "./cli.js" },
+  "keywords": ["github", "branches", "cli", "cleanup", "stale"],
+  "license": "MIT",
+  "engines": { "node": ">=18" }
+}
