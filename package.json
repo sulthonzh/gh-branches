@@ -31,5 +31,8 @@
   "bugs": {
     "url": "https://github.com/sulthonzh/gh-branches/issues"
   },
-  "homepage": "https://github.com/sulthonzh/gh-branches#readme"
+  "homepage": "https://github.com/sulthonzh/gh-branches#readme",
+  "devDependencies": {
+    "@changesets/cli": "^2.31.0"
+  }
 }
